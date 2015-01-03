@@ -11,3 +11,5 @@ enjoy high quality video. To predict the contact volume of a path we need to pre
 volume between each pair of devices in the path that are connected and find the bottleneck path. 
 This volume is the contact volume for the path. The Project is based on the application of the 
 idea proposed in the paper “PCV” Qayyum Shiraz et al.
+
+This app is built on Android 19 as target
