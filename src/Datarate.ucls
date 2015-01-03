@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.example.datarate.DataRateActivity" project="PCV" 
+    file="/PCV/src/com/example/datarate/DataRateActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="422" width="263" x="47" y="-20"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.example.datarate.FileTransferService" project="PCV" 
+    file="/PCV/src/com/example/datarate/FileTransferService.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="282" x="436" y="-27"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.example.datarate.WiFiDirectBroadcastReceiver" project="PCV" 
+    file="/PCV/src/com/example/datarate/WiFiDirectBroadcastReceiver.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="134" width="433" x="410" y="244"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.example.datarate.DeviceDetailFragment" project="PCV" 
+    file="/PCV/src/com/example/datarate/DeviceDetailFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1048" y="85"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.example.datarate.DeviceDetailFragment.FileServerAsyncTask" project="PCV" 
+    file="/PCV/src/com/example/datarate/DeviceDetailFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1045" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.example.datarate.DeviceListFragment.WiFiPeerListAdapter" project="PCV" 
+    file="/PCV/src/com/example/datarate/DeviceListFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1042" y="596"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.example.datarate.DeviceListFragment.DeviceActionListener" project="PCV" 
+    file="/PCV/src/com/example/datarate/DeviceListFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="180" y="581"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.example.datarate.DeviceListFragment" project="PCV" 
+    file="/PCV/src/com/example/datarate/DeviceListFragment.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="588" y="588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="9">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <nesting id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <nesting id="11">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <realization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="14" name="dActivity"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
